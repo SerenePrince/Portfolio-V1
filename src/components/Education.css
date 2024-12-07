@@ -1,0 +1,82 @@
+.education-container {
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  text-align: center;
+  color: black;
+}
+
+.education-experience-container {
+  text-align: left;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: var(--magenta);
+  border-radius: 2rem;
+  align-items: center;
+}
+
+.education-degree-container {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  transition: color 0.5s ease;
+  color: var(--yellow);
+}
+
+.education-degree-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  height: auto;
+}
+
+.education-ac-logo-image {
+  max-width: 10rem;
+}
+
+.education-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .education-container {
+    max-width: 90%; /* Adjusts container width for smaller screens */
+    padding: 1.5rem; /* Reduces padding on mobile */
+  }
+
+  .education-experience-container {
+    margin: 1rem; /* Reduces margin for better fit */
+    text-align: center; /* Centers text for mobile layout */
+  }
+
+  .education-degree-container {
+    flex-direction: column; /* Stacks title and image vertically */
+    text-align: center; /* Centers title and image */
+  }
+
+  .education-degree-container img {
+    margin-left: 0; /* Centers image */
+    margin-bottom: 1rem; /* Adds spacing below the image */
+  }
+
+  .education-title-container {
+    flex-direction: column; /* Stacks title and content vertically */
+    text-align: center; /* Centers title and content */
+    gap: 1rem; /* Adds spacing between items */
+  }
+
+  .education-ac-logo-image {
+    max-width: 50%; /* Allows logo to scale with container */
+  }
+}

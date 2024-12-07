@@ -1,0 +1,53 @@
+.header-container {
+  display: flex;
+  background-color: var(--magenta);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+}
+
+h1 {
+  margin: 0;
+  flex: 1 1 100%; /* Makes the heading take full width on mobile */
+  text-align: center; /* Centers the heading text */
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap; /* Allows nav links to stack if needed */
+  justify-content: center; /* Centers navigation links */
+  flex: 1 1 100%; /* Makes nav take full width on mobile */
+}
+
+nav a,
+.link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  flex: none; /* Prevents links from stretching unevenly */
+}
+
+nav a:hover,
+.link:hover {
+  transition: color 0.5s ease;
+  color: var(--yellow);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column; /* Stacks all elements vertically */
+    align-items: center; /* Centers everything */
+  }
+
+  nav {
+    gap: 1rem; /* Reduces spacing for smaller screens */
+  }
+
+  nav a {
+    font-size: 1rem; /* Adjusts link font size for better fit */
+  }
+}

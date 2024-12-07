@@ -1,0 +1,34 @@
+.skills-container {
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  text-align: center;
+  color: black;
+}
+
+.skills-list-container {
+  text-align: left;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: var(--yellow);
+  border-radius: 2rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap; /* Allows elements to wrap when needed */
+  justify-content: center; /* Centers items in the container */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .skills-container {
+    max-width: 90%; /* Adjusts container width for smaller screens */
+    padding: 1.5rem; /* Reduces padding on mobile */
+  }
+
+  .skills-list-container {
+    margin: 1rem; /* Reduces margin for better fit */
+    text-align: center; /* Centers text for mobile layout */
+    flex-direction: column; /* Stacks items vertically */
+  }
+}

@@ -1,0 +1,89 @@
+.hero-container {
+  color: black;
+  align-items: center;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  flex-direction: row; /* Default horizontal layout */
+  max-width: 75%;
+  border-radius: 1rem;
+  gap: 2rem; /* Adds spacing between elements */
+}
+
+.hero-profile-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-radius: 2rem;
+  max-width: 20rem;
+  align-self: center; /* Centers image when stacked */
+}
+
+.hero-text-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  max-width: 50%;
+  align-items: flex-start; /* Corrects the `align-items: left` syntax */
+  text-align: left; /* Ensures text alignment */
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-14deg);
+  }
+  20% {
+    transform: rotate(8deg);
+  }
+  30% {
+    transform: rotate(-14deg);
+  }
+  40% {
+    transform: rotate(4deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column; /* Stacks image and text vertically */
+    max-width: 90%; /* Expands container width for mobile */
+    text-align: center; /* Centers content on mobile */
+    gap: 1.5rem; /* Adjusts spacing for mobile */
+  }
+
+  .hero-profile-image {
+    max-width: 100%; /* Allows image to scale with container */
+  }
+
+  .hero-text-container {
+    padding-left: 0; /* Removes left padding for mobile */
+    max-width: 100%; /* Full width for text on mobile */
+    align-items: center; /* Centers text */
+    text-align: center;
+  }
+}

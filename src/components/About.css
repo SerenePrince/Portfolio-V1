@@ -1,0 +1,57 @@
+.about-container {
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  text-align: center;
+  color: black;
+}
+
+.about-section-container {
+  display: flex;
+  flex-direction: row; /* Default: side-by-side layout */
+  align-items: center;
+  text-align: left;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: var(--yellow);
+  border-radius: 2rem;
+  gap: 1.5rem; /* Adds spacing between text and image */
+}
+
+.about-container p {
+  margin-right: 1rem;
+}
+
+.about-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-radius: 1rem;
+  max-width: 20rem;
+  align-self: center; /* Centers image vertically */
+}
+
+.about-container figcaption {
+  text-align: center;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .about-section-container {
+    flex-direction: column; /* Stacks content vertically on mobile */
+    text-align: center; /* Centers text for mobile */
+    margin: 1rem; /* Reduces margin for smaller screens */
+    gap: 1rem; /* Adjusts spacing */
+  }
+
+  .about-container p {
+    margin-right: 0; /* Removes margin for centered text */
+    text-align: center; /* Centers text for readability */
+  }
+
+  .about-container img {
+    max-width: 100%; /* Allows image to scale with container */
+  }
+}

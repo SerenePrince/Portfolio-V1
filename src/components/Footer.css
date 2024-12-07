@@ -1,0 +1,60 @@
+.footer-container {
+  background-color: var(--magenta);
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  display: flex; /* Makes the footer container a flex container */
+  flex-direction: column;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  gap: 1rem; /* Adds spacing between elements */
+}
+
+.footer-social-links-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  width: 100%; /* Ensures social links take full width */
+  justify-content: center; /* Centers the social links */
+}
+
+.footer-social-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.footer-social-link-container:hover {
+  color: var(--yellow);
+}
+
+.footer-back-to-top-container {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: color 0.5s ease;
+  gap: 0.5rem;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .footer-container {
+    justify-content: center; /* Centers footer content on mobile */
+    text-align: center; /* Ensures text is centered on mobile */
+    flex-direction: column; /* Stacks footer items vertically */
+    padding: 2rem 1rem; /* Adjusts padding for mobile */
+  }
+
+  .footer-social-links-container {
+    gap: 1.5rem; /* Adds spacing between stacked items */
+    padding-top: 0; /* Removes top padding */
+  }
+
+  .footer-back-to-top-container {
+    margin-top: 1rem; /* Adds space above the "Back to Top" link */
+    justify-content: center; /* Centers the "Back to Top" button */
+  }
+}

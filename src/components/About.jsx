@@ -9,15 +9,11 @@ function About() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Add the fade-in and floating classes when section is in view
+            // Add the fade-in and pop-out classes when section is in view
             entry.target.classList.add("fade-in", "floating");
 
-            // Add the floating animation after fading in
-            entry.target.classList.add("floating");
-
-            // Random delay for the animation (between 0.5s to 2s)
             const randomDelay = Math.random() * (2 - 0.5) + 0.5;
-            entry.target.style.animationDelay = `${randomDelay}s`; // Apply random delay
+            entry.target.style.animationDelay = `${randomDelay}s`;
           }
         });
       },

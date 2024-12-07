@@ -3,6 +3,7 @@
   display: flex;
   background-color: var(--magenta);
   justify-content: space-between;
+  margin-bottom: 2rem;
   align-items: center;
   padding: 1rem;
   flex-wrap: wrap; /* Allows content to wrap on smaller screens */

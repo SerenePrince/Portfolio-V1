@@ -1,6 +1,32 @@
+import { useEffect } from "react";
 import "./Projects.css";
 
 function Projects() {
+  useEffect(() => {
+    const sections = document.querySelectorAll(".projects-section-container");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Add the fade-in and floating classes when section is in view
+            entry.target.classList.add("fade-in", "floating");
+
+            // Random delay for the animation (between 0.5s to 2s)
+            const randomDelay = Math.random() * (2 - 0.5) + 0.5;
+            entry.target.style.animationDelay = `${randomDelay}s`; // Apply random delay
+          }
+        });
+      },
+      { threshold: 0.5 } // Trigger when 50% of the section is visible
+    );
+
+    sections.forEach((section) => observer.observe(section));
+
+    // Cleanup observer on component unmount
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="projects-container" id="projects">
       <h1>Project Showcase</h1>

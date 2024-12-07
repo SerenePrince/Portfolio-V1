@@ -1,3 +1,4 @@
+/* General Styles */
 .header-container {
   display: flex;
   background-color: var(--magenta);
@@ -13,6 +14,7 @@ h1 {
   text-align: center; /* Centers the heading text */
 }
 
+/* Navigation Styles */
 nav {
   display: flex;
   gap: 1.5rem;
@@ -36,7 +38,7 @@ nav a:hover,
   color: var(--yellow);
 }
 
-/* Mobile styles */
+/* Mobile Styles */
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column; /* Stacks all elements vertically */

@@ -1,3 +1,4 @@
+/* General About Container Styles */
 .about-container {
   padding: 2rem;
   margin-left: auto;
@@ -7,18 +8,56 @@
   color: black;
 }
 
+/* About Section Container Styles */
 .about-section-container {
   display: flex;
-  flex-direction: row; /* Default: side-by-side layout */
+  flex-direction: row; /* Side-by-side layout */
   align-items: center;
   text-align: left;
   padding: 2rem;
   margin: 2rem;
   background-color: var(--yellow);
   border-radius: 2rem;
-  gap: 1.5rem; /* Adds spacing between text and image */
+  gap: 1.5rem;
+  transform: translateY(-3px); /* Initial state */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 1.5s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Initially hidden */
+  animation: none; /* Ensure no animation is applied by default */
 }
 
+/* Fade-in when the section comes into view */
+.about-section-container.fade-in {
+  opacity: 1;
+  animation: fadeIn 3s forwards; /* Apply fade-in effect */
+}
+
+/* Floating Animation */
+.about-section-container.floating {
+  animation: float 5s linear infinite; /* Apply floating animation */
+}
+
+/* Floating Keyframe Animation */
+@keyframes float {
+  from {
+    transform: rotate(0deg) translateY(-3px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateY(-3px) rotate(-360deg);
+  }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Text and Image Styles within the About Section */
 .about-container p {
   margin-right: 1rem;
 }
@@ -30,28 +69,28 @@
   height: auto;
   border-radius: 1rem;
   max-width: 20rem;
-  align-self: center; /* Centers image vertically */
+  align-self: center;
 }
 
 .about-container figcaption {
   text-align: center;
 }
 
-/* Mobile styles */
+/* Mobile Styles */
 @media (max-width: 768px) {
   .about-section-container {
-    flex-direction: column; /* Stacks content vertically on mobile */
-    text-align: center; /* Centers text for mobile */
-    margin: 1rem; /* Reduces margin for smaller screens */
-    gap: 1rem; /* Adjusts spacing */
+    flex-direction: column; /* Stacks content vertically */
+    text-align: center;
+    margin: 1rem;
+    gap: 1rem;
   }
 
   .about-container p {
-    margin-right: 0; /* Removes margin for centered text */
-    text-align: center; /* Centers text for readability */
+    margin-right: 0;
+    text-align: center;
   }
 
   .about-container img {
-    max-width: 100%; /* Allows image to scale with container */
+    max-width: 100%;
   }
 }

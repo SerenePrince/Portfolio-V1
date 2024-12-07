@@ -1,3 +1,4 @@
+/* General Hero Container Styles */
 .hero-container {
   color: black;
   align-items: center;
@@ -10,8 +11,21 @@
   max-width: 75%;
   border-radius: 1rem;
   gap: 2rem; /* Adds spacing between elements */
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 3s forwards; /* Fade in effect when the page loads */
 }
 
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Profile Image Styles */
 .hero-profile-image {
   display: block;
   margin-left: auto;
@@ -19,9 +33,26 @@
   height: auto;
   border-radius: 2rem;
   max-width: 20rem;
+  min-height: auto;
   align-self: center; /* Centers image when stacked */
+  transform: translateY(-3px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+  transform: scale(1.1); /* Slightly enlarges the image */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow for the "pop-out" effect */
+  animation: float 5s linear infinite; /* Starts the floating animation on hover */
 }
 
+/* Floating Animation */
+@keyframes float {
+  from {
+    transform: rotate(0deg) translateY(-3px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateY(-3px) rotate(-360deg);
+  }
+}
+
+/* Text Container Styles */
 .hero-text-container {
   position: relative;
   display: flex;
@@ -32,6 +63,7 @@
   text-align: left; /* Ensures text alignment */
 }
 
+/* Wave Animation for Emoji */
 .wave {
   animation-name: wave-animation;
   animation-duration: 2.5s;
@@ -67,7 +99,7 @@
   }
 }
 
-/* Mobile styles */
+/* Mobile Styles */
 @media (max-width: 768px) {
   .hero-container {
     flex-direction: column; /* Stacks image and text vertically */

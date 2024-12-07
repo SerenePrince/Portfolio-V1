@@ -7,7 +7,7 @@ function Hero() {
         src="./assets/images/hero-profile.jpg"
         alt="An image of Noah Park-Nguyen"
         className="hero-profile-image"
-      ></img>
+      />
       <div className="hero-text-container">
         <h1>
           Hi <span className="wave">👋</span> I&apos;m Noah.

@@ -1,3 +1,4 @@
+/* General Education Container Styles */
 .education-container {
   padding: 2rem;
   margin-left: auto;
@@ -7,6 +8,7 @@
   color: black;
 }
 
+/* Education Experience Container Styles */
 .education-experience-container {
   text-align: left;
   padding: 2rem;
@@ -14,8 +16,45 @@
   background-color: var(--magenta);
   border-radius: 2rem;
   align-items: center;
+  transform: translateY(-3px); /* Initial state */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 1.5s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Initially hidden */
+  animation: none; /* Ensure no animation is applied by default */
 }
 
+/* Fade-in when the section comes into view */
+.education-experience-container.fade-in {
+  opacity: 1;
+  animation: fadeIn 3s forwards; /* Apply fade-in effect */
+}
+
+/* Floating Animation */
+.education-experience-container.floating {
+  animation: float 5s linear infinite; /* Apply floating animation */
+}
+
+/* Floating Keyframe Animation */
+@keyframes float {
+  from {
+    transform: rotate(0deg) translateY(-3px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateY(-3px) rotate(-360deg);
+  }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Text and Image Styles within the Education Experience Section */
 .education-degree-container {
   display: flex;
   align-items: center;

@@ -1,3 +1,4 @@
+/* General Skills Container Styles */
 .skills-container {
   padding: 2rem;
   margin-left: auto;
@@ -7,6 +8,7 @@
   color: black;
 }
 
+/* Skills List Container Styles */
 .skills-list-container {
   text-align: left;
   padding: 2rem;
@@ -17,6 +19,41 @@
   display: flex;
   flex-wrap: wrap; /* Allows elements to wrap when needed */
   justify-content: center; /* Centers items in the container */
+  transform: translateY(-3px); /* Initial state */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 1.5s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Initially hidden */
+}
+
+/* Fade-in when the section comes into view */
+.skills-list-container.fade-in {
+  opacity: 1;
+  animation: fadeIn 3s forwards; /* Apply fade-in effect */
+}
+
+/* Floating Animation */
+.skills-list-container.floating {
+  animation: float 5s linear infinite; /* Apply floating animation */
+}
+
+/* Floating Keyframe Animation */
+@keyframes float {
+  from {
+    transform: rotate(0deg) translateY(-3px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateY(-3px) rotate(-360deg);
+  }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Mobile styles */

@@ -1,60 +1,64 @@
----
-# **Noah Park-Nguyen's Portfolio**
+# Noah Park-Nguyen's Portfolio
 
-Welcome to my portfolio! This repository showcases my projects, skills, and experiences as I pursue a career in software development and computer engineering technology.
----
+![portfolio-showcase](https://github.com/user-attachments/assets/ebb96e23-f5a7-4f7e-8441-fd65e3fe5a77)
 
-## **About the Portfolio**
+[**Explore the Portfolio**](https://sereneprince.github.io/My-Portfolio/)
 
-This portfolio was created to highlight my professional and academic journey. It serves as a central hub for potential employers, collaborators, or anyone interested in my work. It includes:
-
-- **Projects**: Detailed information about the projects I’ve completed, including code samples and links to live demos.
-- **Skills**: An overview of the programming languages, tools, and technologies I am proficient in.
-- **Resume**: A downloadable copy of my current resume.
-- **Contact Information**: Ways to get in touch with me.
+Welcome to my portfolio! This repository highlights my projects, skills, and experiences as I advance my career in software development and computer engineering technology.
 
 ---
 
-## **Features**
+## ✨ About This Portfolio
 
-- **Interactive Design**: The portfolio is responsive and user-friendly on desktop, tablet, and mobile devices.
-- **Navigation**: Intuitive sections such as Portfolio, About, Resume, and Contact.
-- **Modern Technology Stack**:
-  - Built with **HTML**, **CSS**, and **React.js**.
-  - Styled using **CSS frameworks** for a clean and professional appearance.
-  - Deployed using **GitHub Pages** for seamless access.
+This portfolio, originally crafted in 2024, showcases my professional and academic journey. While it has been superseded by my 2025 version, it remains a testament to my earlier growth and achievements. Highlights include:
+
+- **Projects**: Completed works with code samples and live demos.
+- **Skills**: Proficiencies in programming languages, tools, and technologies.
+- **Resume**: A downloadable copy of my resume from this period.
+- **Contact Information**: Methods to connect with me.
 
 ---
 
-## **Getting Started**
+## ✨ Features
 
-You can view the live portfolio here:  
+- **Interactive Design**: Fully responsive for desktop, tablet, and mobile devices.
+- **Seamless Navigation**: Intuitive sections for Portfolio, About, Resume, and Contact.
+- **Modern Stack**:
+  - Built with **React.js**, **HTML**, and **CSS**.
+  - Styled using **CSS frameworks** for a polished look.
+  - Deployed on **GitHub Pages** for easy accessibility.
+
+---
+
+## 🚀 Getting Started
+
+Visit the live version here:  
 [**Noah's Portfolio**](https://sereneprince.github.io/My-Portfolio/)
 
 ---
 
-## **Technologies Used**
+## 🛠️ Technologies Used
 
-- **Frontend**: React.js, HTML, CSS
-- **Version Control**: Git, GitHub
-- **Deployment**: GitHub Pages
-
----
-
-## **Projects Highlighted**
-
-1. **Weather App**: Fetches real-time weather data using APIs and displays it with a user-friendly UI.
-2. **Typing Test Application**: Tracks accuracy and words-per-minute for practice typing.
-3. **Battleship Game**: A Java-based application featuring single and multiplayer modes.
+- **Frontend**: React.js, HTML, CSS  
+- **Version Control**: Git, GitHub  
+- **Deployment**: GitHub Pages  
 
 ---
 
-## **Contact**
+## 🎨 Projects Highlighted
 
-Feel free to reach out to me via the following platforms:
+1. **Weather App**: Provides real-time weather updates using APIs, with a user-friendly interface.  
+2. **Typing Test Application**: Tracks typing accuracy and speed for practice.  
+3. **Battleship Game**: A Java-based game featuring both single and multiplayer modes.  
 
-- **Email**: [your-email@example.com](noahparknguyen@gmail.com)
-- **LinkedIn**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/nparknguyen/)
-- **GitHub**: [github.com/your-username](https://github.com/SerenePrince)
+---
+
+## 📧 Contact
+
+Feel free to connect with me:
+
+- **Email**: [noahparknguyen@gmail.com](mailto:noahparknguyen@gmail.com)  
+- **LinkedIn**: [linkedin.com/in/nparknguyen](https://www.linkedin.com/in/nparknguyen/)  
+- **GitHub**: [github.com/SerenePrince](https://github.com/SerenePrince)  
 
 ---

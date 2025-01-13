@@ -1,5 +1,3 @@
----
-
 # 👨‍💻 Noah Park-Nguyen's Portfolio  
 
 ![portfolio-showcase](https://github.com/user-attachments/assets/ebb96e23-f5a7-4f7e-8441-fd65e3fe5a77)

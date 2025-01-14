@@ -1,60 +1,68 @@
----
-# **Noah Park-Nguyen's Portfolio**
+# 👨‍💻 Noah Park-Nguyen's Portfolio
 
-Welcome to my portfolio! This repository showcases my projects, skills, and experiences as I pursue a career in software development and computer engineering technology.
----
+![portfolio-showcase](https://github.com/user-attachments/assets/ebb96e23-f5a7-4f7e-8441-fd65e3fe5a77)
 
-## **About the Portfolio**
+[**Explore the Portfolio**](https://sereneprince.github.io/Portfolio-V1/)
 
-This portfolio was created to highlight my professional and academic journey. It serves as a central hub for potential employers, collaborators, or anyone interested in my work. It includes:
-
-- **Projects**: Detailed information about the projects I’ve completed, including code samples and links to live demos.
-- **Skills**: An overview of the programming languages, tools, and technologies I am proficient in.
-- **Resume**: A downloadable copy of my current resume.
-- **Contact Information**: Ways to get in touch with me.
+Welcome to my personal portfolio! This site highlights my projects, skills, and experiences as I continue to grow in the fields of **software development** and **computer engineering technology**.
 
 ---
 
-## **Features**
+## ✨ About This Portfolio
 
-- **Interactive Design**: The portfolio is responsive and user-friendly on desktop, tablet, and mobile devices.
-- **Navigation**: Intuitive sections such as Portfolio, About, Resume, and Contact.
-- **Modern Technology Stack**:
-  - Built with **HTML**, **CSS**, and **React.js**.
-  - Styled using **CSS frameworks** for a clean and professional appearance.
-  - Deployed using **GitHub Pages** for seamless access.
+This portfolio, initially built in **2024**, serves as a snapshot of my journey at that time. While I have since updated it in 2025 with new projects and more polished design, it remains a reminder of how far I've come.
 
----
+Key features include:
 
-## **Getting Started**
-
-You can view the live portfolio here:  
-[**Noah's Portfolio**](https://sereneprince.github.io/Portfolio-V1/)
+- **Projects**: A showcase of my completed works, with links to live demos and source code.
+- **Skills**: A list of my proficiencies in various programming languages, frameworks, and tools.
+- **Resume**: A downloadable version of my resume to showcase my qualifications and experiences.
+- **Contact Information**: Easy ways for potential employers or collaborators to reach out.
 
 ---
 
-## **Technologies Used**
+## ✨ Features
 
-- **Frontend**: React.js, HTML, CSS
-- **Version Control**: Git, GitHub
-- **Deployment**: GitHub Pages
-
----
-
-## **Projects Highlighted**
-
-1. **Weather App**: Fetches real-time weather data using APIs and displays it with a user-friendly UI.
-2. **Typing Test Application**: Tracks accuracy and words-per-minute for practice typing.
-3. **Battleship Game**: A Java-based application featuring single and multiplayer modes.
+- **Responsive Design**: The site is optimized for both **desktop**, **tablet**, and **mobile** devices.
+- **Interactive Navigation**: Seamless transitions between sections like Portfolio, About, Resume, and Contact.
+- **Modern Web Stack**:
+  - **React.js** for building dynamic, interactive components.
+  - Styled with **CSS** and **CSS frameworks** for clean and polished visuals.
+  - Hosted and deployed on **GitHub Pages** for easy access anywhere.
 
 ---
 
-## **Contact**
+## 🛠️ Technologies Used
 
-Feel free to reach out to me via the following platforms:
+- **Frontend**:
 
-- **Email**: [your-email@example.com](noahparknguyen@gmail.com)
-- **LinkedIn**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/nparknguyen/)
-- **GitHub**: [github.com/your-username](https://github.com/SerenePrince)
+  - **React.js**: For building the app’s user interface.
+  - **HTML**: For structuring the content.
+  - **CSS**: For styling and layout management.
+
+- **Version Control**:
+
+  - **Git** & **GitHub**: Used to track changes and manage code collaboration.
+
+- **Deployment**:
+  - **GitHub Pages**: For hosting and making the portfolio publicly accessible.
+
+---
+
+## 🎨 Projects Highlighted
+
+1. **Weather App**: A simple app fetching real-time weather data from OpenWeatherMap API. Displays current weather and forecasts.
+2. **Typing Test Application**: A typing test application to track your typing speed and accuracy.
+3. **Battleship Game**: A Java-based game featuring single-player and multiplayer modes, built with **JavaFX**.
+
+---
+
+## 📧 Contact
+
+Feel free to reach out or connect with me:
+
+- **Email**: [noahparknguyen@gmail.com](mailto:noahparknguyen@gmail.com)
+- **LinkedIn**: [linkedin.com/in/nparknguyen](https://www.linkedin.com/in/nparknguyen/)
+- **GitHub**: [github.com/SerenePrince](https://github.com/SerenePrince)
 
 ---

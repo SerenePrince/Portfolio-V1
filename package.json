@@ -1,9 +1,9 @@
 {
-  "name": "my-portfolio",
+  "name": "v1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sereneprince.github.io/My-Portfolio/",
+  "homepage": "https://sereneprince.github.io/Portfolio-V1/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

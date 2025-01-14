@@ -29,7 +29,7 @@ This portfolio was created to highlight my professional and academic journey. It
 ## **Getting Started**
 
 You can view the live portfolio here:  
-[**Noah's Portfolio**](https://sereneprince.github.io/My-Portfolio/)
+[**Noah's Portfolio**](https://sereneprince.github.io/Portfolio-V1/)
 
 ---
 

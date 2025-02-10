@@ -1,68 +1,57 @@
-# 👨‍💻 Noah Park-Nguyen's Portfolio
+# 👨‍💻 **Noah Park-Nguyen's Portfolio V1**
 
-![portfolio-showcase](https://github.com/user-attachments/assets/ebb96e23-f5a7-4f7e-8441-fd65e3fe5a77)
+![Portfolio Showcase](https://github.com/user-attachments/assets/ebb96e23-f5a7-4f7e-8441-fd65e3fe5a77)
 
-[**Explore the Portfolio**](https://sereneprince.github.io/Portfolio-V1/)
+🔗 **Explore this version:** [Portfolio V1](https://sereneprince.github.io/Portfolio-V1/)
 
-Welcome to my personal portfolio! This site highlights my projects, skills, and experiences as I continue to grow in the fields of **software development** and **computer engineering technology**.
-
----
-
-## ✨ About This Portfolio
-
-This portfolio, initially built in **2024**, serves as a snapshot of my journey at that time. While I have since updated it in 2025 with new projects and more polished design, it remains a reminder of how far I've come.
-
-Key features include:
-
-- **Projects**: A showcase of my completed works, with links to live demos and source code.
-- **Skills**: A list of my proficiencies in various programming languages, frameworks, and tools.
-- **Resume**: A downloadable version of my resume to showcase my qualifications and experiences.
-- **Contact Information**: Easy ways for potential employers or collaborators to reach out.
+🚀 **Check out my latest portfolio:** [NoahPN (2025)](https://sereneprince.github.io/noahpn/)
 
 ---
 
-## ✨ Features
+## 📌 **About This Portfolio**
 
-- **Responsive Design**: The site is optimized for both **desktop**, **tablet**, and **mobile** devices.
-- **Interactive Navigation**: Seamless transitions between sections like Portfolio, About, Resume, and Contact.
-- **Modern Web Stack**:
-  - **React.js** for building dynamic, interactive components.
-  - Styled with **CSS** and **CSS frameworks** for clean and polished visuals.
-  - Hosted and deployed on **GitHub Pages** for easy access anywhere.
+This portfolio, originally built in **2024**, captures an early phase of my journey in **software development** and **computer engineering technology**. While I’ve since refined my portfolio in **2025**, this version remains a milestone in my growth and progress.
 
----
-
-## 🛠️ Technologies Used
-
-- **Frontend**:
-
-  - **React.js**: For building the app’s user interface.
-  - **HTML**: For structuring the content.
-  - **CSS**: For styling and layout management.
-
-- **Version Control**:
-
-  - **Git** & **GitHub**: Used to track changes and manage code collaboration.
-
-- **Deployment**:
-  - **GitHub Pages**: For hosting and making the portfolio publicly accessible.
+### 🔹 **Key Features**
+- **Projects Showcase** – Displays my completed works with live demos and source code.
+- **Skills Overview** – Lists my technical proficiencies.
+- **Resume Download** – Provides my qualifications and experiences.
+- **Contact Section** – Makes it easy for recruiters and collaborators to reach out.
 
 ---
 
-## 🎨 Projects Highlighted
+## ✨ **Features & Technologies**
 
-1. **Weather App**: A simple app fetching real-time weather data from OpenWeatherMap API. Displays current weather and forecasts.
-2. **Typing Test Application**: A typing test application to track your typing speed and accuracy.
-3. **Battleship Game**: A Java-based game featuring single-player and multiplayer modes, built with **JavaFX**.
+### 🖥 **Frontend**
+- **React.js** – Dynamic and interactive UI
+- **HTML5 & CSS3** – Structured content with clean styling
+- **CSS Frameworks** – Enhanced design and responsiveness
+
+### 🌍 **Deployment**
+- **GitHub Pages** – For hosting and easy accessibility
+- **Git & GitHub** – Version control and collaboration
+
+### 📱 **User Experience**
+- **Responsive Design** – Optimized for **desktop, tablet, and mobile**
+- **Interactive Navigation** – Smooth transitions between sections
+- **Minimalist Aesthetic** – Focus on clarity and usability
 
 ---
 
-## 📧 Contact
+## 🏗 **Highlighted Projects**
 
-Feel free to reach out or connect with me:
-
-- **Email**: [noahparknguyen@gmail.com](mailto:noahparknguyen@gmail.com)
-- **LinkedIn**: [linkedin.com/in/nparknguyen](https://www.linkedin.com/in/nparknguyen/)
-- **GitHub**: [github.com/SerenePrince](https://github.com/SerenePrince)
+1. **Weather App** – Fetches real-time weather data using OpenWeatherMap API.
+2. **Typing Test** – Tracks typing speed and accuracy with an interactive UI.
+3. **Battleship Game** – A **JavaFX-based** game with single and multiplayer modes.
 
 ---
+
+## 📬 **Contact Me**
+
+📧 **Email**: [noahparknguyen@gmail.com](mailto:noahparknguyen@gmail.com)  
+🔗 **LinkedIn**: [linkedin.com/in/nparknguyen](https://www.linkedin.com/in/nparknguyen/)  
+🐙 **GitHub**: [github.com/SerenePrince](https://github.com/SerenePrince)
+
+---
+
+📌 **Note:** This portfolio is outdated but remains archived for reference. Check out my latest work here: [**NoahPN (2025)**](https://sereneprince.github.io/noahpn/) 🚀
